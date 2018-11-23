@@ -1,0 +1,14 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 57.713 s <<< FAILURE! - in TestSuite
+loginPage(orangehrmlogin.Login)  Time elapsed: 57.113 s  <<< FAILURE!
+org.openqa.selenium.ElementNotInteractableException: 
+
+Build info: version: '3.14.0', revision: 'aacccce0', time: '2018-08-02T20:19:58.91Z'
+System info: host: 'DCP-PC', ip: '192.168.43.100', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_191'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 55.0, javascriptEnabled: true, moz:accessibilityChecks: false, moz:processID: 5572, moz:profile: C:\Users\DCP\AppData\Local\..., pageLoadStrategy: normal, platform: XP, platformName: XP, platformVersion: 6.1, rotatable: false, specificationLevel: 0, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}}
+Session ID: 0f6228a4-5e9f-446e-b924-6655e3aded4f
+	at orangehrmlogin.Login.loginPage(Login.java:21)
+

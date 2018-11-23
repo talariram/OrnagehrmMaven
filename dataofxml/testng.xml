@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Orange hrm maven suite">
+  <test name="Orange hrm mave test">
+
+  <classes> 
+ <class name ="orangehrmlogin.Login"> 
+ </class>
+ <!-- <class name ="package1.TC2"> 
+ </class>  -->
+  </classes>
+  </test> 
+</suite> 
